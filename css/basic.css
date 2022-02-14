@@ -288,7 +288,7 @@ header .headerIn{
     left:50%;
     transform: translate(-50%);
     bottom: 5vh;
-    border:1px solid orange;}
+   }
 .total_address_w h2{
     font-size:18px;
     font-weight: 500;
@@ -389,7 +389,7 @@ section{ background-size:cover; background-position:center center;}
 .s2_w{ position:relative; 
     margin:0 13vw;
     transform: translateY(10vh);
-    border:2px solid salmon;
+  
     z-index: 5; 
 }
 .s2_title{
@@ -414,7 +414,7 @@ section{ background-size:cover; background-position:center center;}
     right:5%;
     width:35%;
     height:100%;
-    border:1px solid green
+   
 }
 .s2_img>img{max-width:100%}
 .s2_cont{
