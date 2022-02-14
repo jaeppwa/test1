@@ -1,0 +1,288 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@500&display=swap');
+
+@media(max-width:1023px){
+    header{height:55px;}
+    header h1{
+        width:85px;
+        margin-left:30px;}
+        .gnb_list_w{display:none;}    
+    
+
+.mobil{display:block;}
+.pc{display:none;}
+
+
+
+        /*total_menu_z*/
+
+.total_menu_z{}
+.total_menu_z_in{
+    background-size:70% auto;
+}
+.total_menu_z h1{
+    height:55px;
+    width:85px;
+    margin-left:30px;
+    display:block;}
+.total_menu_z h1>a{
+    text-indent: -9999px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/toplogo_w.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.totalmenu{
+    position:absolute;
+    top:55px;
+    left:0;
+    width:100%;
+    height:calc(100% - 155px);
+    bottom:0;
+    overflow: hidden;}
+.total_list{
+    position:static;/*문서의 흐름에 따라 위치 위치값이 먹히지 않음 */
+    width:100%;
+    display:block;
+    height:auto;
+    padding-top:70px;
+}
+.total_list > li{ 
+    display:block;
+    position:static;
+    text-align: center;
+    margin-bottom: 35px;
+   }
+    
+
+
+.total_item01{}
+.total_item02{}
+.total_item03{}
+.total_item04{}
+ .total_Mitem:hover{
+        border-bottom: 2px solid rgba(255, 255, 255);
+    }
+.total_Mitem{
+    font-size:25px;
+    }
+    .total_Mitem:hover{
+        border-bottom: 2px solid transparent;
+        
+    }
+    .total_Mitem.active{
+        border-bottom-color:#fff;
+    }
+
+
+    .total_Mitem.active +.total_subitem_w{display:block;}
+    /*active들어 갔을때!*/
+.total_subitem_w{display:none;padding-top:10px;}
+.total_subitem_list{
+   
+}
+.total_subitem_list>li{margin-bottom: 15px;}
+.total_subitem{
+    font-size: 16px;}
+
+
+    .total_close_wrap{
+        top:0;
+        right:0;
+        width:20%; 
+        background:#fff;
+        height:55px;
+      }
+      .btn_close{
+      padding-left:0;
+        
+      }
+      .btn_close_in{ display:none}
+      .btn_close:after, .btn_close:before{
+          width:28px;;
+          left:50%;
+          top:27px;;
+          margin-left:-14px;
+          background:rgb(14, 13, 13);
+      }
+      .total_address_w{
+        text-align: center;
+        bottom:0vh;
+}
+    .total_address_w h2{
+        margin-bottom: 10px;} 
+    .total_address_list{display:block;}
+    .address{display:none;}
+      
+    /*fullpage*/
+
+    .s1_txt_wrap{
+      margin:0 50px;
+      
+    }
+    .s1_main{
+      
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    
+    .s1_main span{
+      
+        font-size:45px;}
+    .s1_sub{
+        margin-top:20px;
+        font-size:16px;
+    }
+    #s3{
+        position: relative;
+        background:url("../img/mc_geda_bg_m.png") no-repeat 50% 50%/cover;}
+    .s3_w{
+        margin:0 30px; 
+    }
+    .s3_title{
+        font-size:25px;
+    }
+    .s3_main{
+        font-size: 45px;
+    }
+    .s3_desc{margin-top:30px;}
+    .s3_cont{margin-bottom:20px;}
+    .s3_item_con{font-size:17px;}
+    .s3_item_con.type2{font-size: 14px;}
+    .s3_item_title{
+        font-size:24px;;
+        margin-bottom:10px;}
+
+        .s3_btns{margin-top:70px;}
+.s3_btns a{ 
+    border:1px solid #fff;
+    padding:7px 15px 8px;
+    }
+.s3_btns span{
+    font-size:14px;
+  
+}
+
+.s3_btns span:before{
+    width:20px;}
+
+
+
+#arrow{ 
+    bottom:10px;
+    right:10px;
+   
+}
+ #arrow a{
+    margin-bottom: 30px;}
+  
+    
+
+
+    #s2{
+      
+    }
+    .s2_bg{
+       width:100%;
+       height:367px;  
+       bottom:auto;
+    }
+    .s2_w{
+       margin:0px 30px; 
+       transform: translateY(0vh);
+    }
+    .s2_title{
+        max-width:210px;
+   
+      
+    }
+    .s2_title_sub{ 
+        margin-top:10px;
+        font-size:25px;
+       
+    }
+    .s2_img{
+        margin-top:10px;;
+        width:50%;
+       
+        position:static;
+        display: block;/*위치값 정보 없음!!*/
+    }
+    .s2_cont{
+       margin-top:10px;
+    }
+    .s2_item_title{
+        margin-top:5px;
+        font-size: 16px;
+    }
+    .s2_item_cont{
+        margin-top:0x;
+        font-size: 14px;
+       
+    }/*효능 효과 부분*/
+.s2_list{display:flex;flex-wrap: wrap; }
+.s2_list>li{
+    width:50%;
+    display:block;
+}
+.s2_item{margin-right:0;text-align: center;}
+.s2_item:before{ 
+   margin:auto;
+    width:70px; 
+    height:70px;
+   
+}/*스프라이트 이미쥐 좌표값 영으로 측정 */
+.s2_item_spec{margin-top:10px;}
+
+.s2_item01::before{
+    background-position: 0 0px;
+}
+.s2_item02::before{
+    background-position: 0 -70px;
+}
+.s2_item03::before{
+    background-position: -3px -140px;
+}
+.s2_item04::before{
+    background-position: -5px -210px;
+}
+
+.s2_more_w{
+    margin-top:20px;
+}
+.s2_more{
+    line-height:25px;
+    padding-right: 40px;
+    height:25px;
+    position:relative;
+}
+.s2_more:after{
+
+    width:25px; 
+    height:25px;
+
+    background: #95AAA3 url("../img/linkgo_allow.png")no-repeat 50% 50%/60% auto;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .s2_img{
+        width:65%;
+    }
+}
